@@ -1,0 +1,45 @@
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#pong {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    background-color: #111;
+}
+
+.pong-paddle {
+    position: absolute;
+    width: 20px;
+    height: 100px;
+    background-color: #fff;
+}
+
+#player {
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#computer {
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#ball {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
